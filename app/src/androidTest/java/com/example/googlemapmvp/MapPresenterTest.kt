@@ -43,8 +43,8 @@ class MapPresenterTest {
     @Test
     fun testGetLocation() {
         // Given
-        val mockLocation = Location(33.5, 130.3)
-        val mockPlace = "Fukuoka"
+        val mockLocation = Location(35.6, 139.8)
+        val mockPlace = "Tokyo"
         val mockLocationToLatLng = LatLng(mockLocation.lat, mockLocation.lng)
         // When
         presenter.getLocation(mockPlace, mockLocation)
